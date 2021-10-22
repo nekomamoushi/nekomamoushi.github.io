@@ -2,7 +2,7 @@
 
 body {
   position: relative;
-  background: url(img/bg-img-large.jpg);
+  background: url(img/bg-img-large.webp);
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -52,6 +52,6 @@ body {
 /* For mobile devices */
 @media only screen and (max-width: 767px) {
   body {
-    background-image: url(img/bg-img-mobile-medium.jpg);
+    background-image: url(img/bg-img-mobile-medium.webp);
   }
 }
