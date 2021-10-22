@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Yaldevi:wght@400;700&display=swap");
+
+body {
+  position: relative;
+  background: url(img/bg-img-large.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+
+  color: #fff;
+  font-family: "Yaldevi", "sans-serif";
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 20px 0;
+  z-index: 10;
+}
+
+.icons {
+  padding: 20px;
+  z-index: 10;
+}
+
+.icons a {
+  color: #fff;
+}
+.icons i {
+  font-size: 3rem;
+  padding: 0 10px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+  z-index: 5;
+}
+
+/* For mobile devices */
+@media only screen and (max-width: 767px) {
+  body {
+    background-image: url(img/bg-img-mobile-medium.jpg);
+  }
+}
